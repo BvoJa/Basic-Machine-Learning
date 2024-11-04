@@ -1,1 +1,1 @@
-Hi
+basic nhung kho vo lo 
