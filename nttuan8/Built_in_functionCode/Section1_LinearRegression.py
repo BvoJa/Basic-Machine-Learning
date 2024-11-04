@@ -13,7 +13,7 @@ X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_s
 plt.scatter(X_train, y_train, c = 'red')
 plt.scatter(X_test, y_test, c = 'blue')
 plt.xlabel('Area')
-plt.ylabel('Cost')
+plt.ylabel('Cost') 
 
 slope, intercept, r, p, std_err = stats.linregress(X_train, y_train)
 def Func(x):
